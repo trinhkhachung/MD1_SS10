@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let a = +prompt("Số a");
+            let b = +prompt("số b");
+            let c = +prompt("số c");
+            let delta = b ** 2 - 4 * a * c;
+            if (delta < 0) {
+                alert("Vô nghiệm");
+            } else if (delta == 0) {
+                alert(`2 nghiệm bằng nhau ${-b / (2 * a)} `);
+            } else {
+                alert(`Nghiệm 1 ${-b + Math.sqrt(result) / (2 * a)}`);
+                alert(`Nghiệm 1 ${-b - Math.sqrt(result) / (2 * a)}`);
+            }
+    </script>
+</body>
+</html>
